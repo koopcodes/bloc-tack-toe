@@ -43,8 +43,27 @@ ol, ul {
 .game {
   display: flex;
   flex-direction: row;
+  height: 300px;
+}
+
+.game-board {
+  min-width: 100px;
 }
 
 .game-info {
   margin-left: 20px;
+  width: 300px;
+}
+
+.winner {
+  color: green;
+}
+
+.footer {
+  margin-top: 400px;
+  padding-left: 20px;
+}
+
+a {
+  color: #000;
 }
